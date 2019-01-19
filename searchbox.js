@@ -1,7 +1,7 @@
 'use strict';
 var supported_languages = ["de", "en", "it", "fr"]
-var saved_lat = 50.30567822143615; 
-var saved_lon = 8.754215240478517;
+var saved_lat = 50.23304202656137; 
+var saved_lon = 8.766059875488283;
 var maxSouth = 0;
 var maxWest = 0;
 var maxNorth = 0;
