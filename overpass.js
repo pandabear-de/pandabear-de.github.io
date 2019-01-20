@@ -295,8 +295,8 @@ coffee_keys.set("ToGo", "\"drink:coffee:togo\"~\"yes|deposit|only\"");
 coffee_keys.set("Wickeltisch", "\"diaper\"=\"yes\"");
 var map = L.map('map')
 map.options.maxZoom = 17;
-map.options.minZoom = 13;
-map.setView([saved_lat, saved_lon], 15);
+map.options.minZoom = 11;
+map.setView([saved_lat, saved_lon], 13);
 maxSouth = map.getBounds().getSouth();
 maxWest = map.getBounds().getWest();
 getStateFromHash();
